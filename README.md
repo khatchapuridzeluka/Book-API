@@ -2,7 +2,7 @@
 
 This API supports basic CRUD operations for managing books using **SQL Server** and **Entity Framework**. It uses **Swagger** for API documentation and testing.
 
-## Features
+# Features
 
 - **Authentication**:  
   To interact with the API, login using the following credentials and get the JWT token:
@@ -24,7 +24,7 @@ This API supports basic CRUD operations for managing books using **SQL Server** 
   - A book can't be added if there is an existing one with the same `Title`, `AuthorName`, and `PublicationYear`.
   - `ViewsCount` cannot be modified via the API request.
 
-## Setup
+# Setup
 
 ### 1. Clone the Repository
 Clone this repository to your local machine:
@@ -32,7 +32,7 @@ Clone this repository to your local machine:
 ```bash
 git clone https://github.com/khatchapuridzeluka/Book-API.git
 ```
-# 2. Update Connection String
+### 2. Update Connection String
 In the `appsettings.json` file, replace the placeholder connection string with your own SQL Server connection string.
 ```bash
 "ConnectionStrings": {
@@ -51,4 +51,7 @@ Run the project with the following command:
 ```bash
 dotnet run
 ```
+## Made By
+Luka Khatchapuridze
+Exadel Bootcamp / Assignment 1
 
