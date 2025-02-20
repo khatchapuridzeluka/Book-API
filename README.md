@@ -52,6 +52,6 @@ Run the project with the following command:
 dotnet run
 ```
 ## Made By
-Luka Khatchapuridze
+Luka Khatchapuridze  
 Exadel Bootcamp / Assignment 1
 
