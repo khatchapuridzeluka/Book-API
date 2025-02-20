@@ -23,7 +23,7 @@ namespace Book_Management_API.Controllers
         public IActionResult Login([FromBody] UserDTO user)
         {
             // Simple Login without using entitiy. adming / password
-            if (user.Username == "admin" && user.Password == "password")
+            if (user.Username == "Exadel" && user.Password == "bookAPI")
             {
                 var token = GenerateJwtToken(user.Username);
                 return Ok(new { token });
